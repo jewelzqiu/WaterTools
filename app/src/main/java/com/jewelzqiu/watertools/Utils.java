@@ -30,4 +30,9 @@ public class Utils {
         }
     }
 
+    public static double calculateVelocityFullPipeFlow(double roughness, double diameter,
+            double gradient) {
+        return 1 / roughness * Math.pow(diameter / 4, 2.0 / 3) * Math.pow(gradient, 0.5);
+    }
+
 }

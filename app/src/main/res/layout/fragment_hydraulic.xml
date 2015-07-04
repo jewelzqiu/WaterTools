@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_q"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/discharge"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_q"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_q"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_q"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp" />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_v"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/velocity"
+                android:textColor="@color/my_primary"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_v"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_v"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_v"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/my_primary"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_d"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/diameter"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_d"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_d"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp" />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_h"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/head_loss"
+                android:textColor="@color/my_primary"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_h"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_h"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/my_primary"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_l"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/length"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_l"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_l"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp" />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textview_i"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:text="@string/gradient"
+                android:textColor="@color/my_primary"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinner_i"
+                android:gravity="center_horizontal" />
+
+            <FrameLayout
+                android:id="@+id/frame_i"
+                android:paddingTop="4dp">
+
+                <EditText
+                    android:id="@+id/edittext_i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/my_primary"
+                    android:textSize="24sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_clear_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_clear_black_24dp"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
