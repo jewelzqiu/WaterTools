@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Water Tools</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="discharge">Discharge</string>
+    <string name="velocity">Velocity</string>
+    <string name="diameter">Diameter</string>
+    <string name="head_loss">Head Loss</string>
+    <string name="length">Length</string>
+    <string name="gradient">Gradient</string>
+
+    <string name="cubem_per_hour" translatable="false">m^3/h</string>
+    <string name="cubem_per_sec" translatable="false">m^3/s</string>
+    <string name="liter_per_sec" translatable="false">l/s</string>
+    <string name="meter_per_sec" translatable="false">m/s</string>
+    <string name="kilometer" translatable="false">km</string>
+    <string name="meter" translatable="false">m</string>
+    <string name="milimeter" translatable="false">mm</string>
+    <string name="times_1000" translatable="false">x1000</string>
+    <string name="times_1" translatable="false">x1</string>
+    
+    <string-array name="discharge_units">
+        <item>@string/cubem_per_hour</item>
+        <item>@string/cubem_per_sec</item>
+        <item>@string/liter_per_sec</item>
+    </string-array>
+
+    <string-array name="velocity_units">
+        <item>@string/meter_per_sec</item>
+    </string-array>
+
+    <string-array name="diameter_units">
+        <item>@string/milimeter</item>
+        <item>@string/meter</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>@string/kilometer</item>
+        <item>@string/meter</item>
+    </string-array>
+
+    <string-array name="head_loss_units">
+        <item>@string/meter</item>
+    </string-array>
+
+    <string-array name="gradient_units">
+        <item>@string/times_1000</item>
+        <item>@string/times_1</item>
+    </string-array>
+
+    <integer-array name="discharge_unit_values">
+        <item>3600</item>
+        <item>1</item>
+        <item>1000</item>
+    </integer-array>
+
+    <integer-array name="velocity_unit_values">
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="diameter_unit_values">
+        <item>1000</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="length_unit_values" translatable="false">
+        <item>0.001</item>
+        <item>1</item>
+    </string-array>
+
+    <integer-array name="head_loss_unit_values">
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="gradient_unit_values">
+        <item>1000</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">水力计算</string>
+    <string name="action_settings">设置</string>
+    <string name="diameter">管径</string>
+    <string name="discharge">流量</string>
+    <string name="velocity">流速</string>
+    <string name="gradient">坡降</string>
+    <string name="head_loss">水损</string>
+    <string name="length">管长</string>
+</resources>
